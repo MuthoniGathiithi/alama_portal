@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Alama Portal
+
+A modern Next.js application for the Alama Portal with a beautiful login interface and comprehensive dashboard system.
+
+## Features
+
+- **Modern Login Interface**: Clean, minimalist design with dodger blue accents
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Dashboard System**: Complete navigation with sidebar and multiple pages
+- **Countries Management**: Full CRUD operations for country data
+- **Password Visibility Toggle**: Enhanced user experience with eye icon toggle
+- **Focus States**: Subtle animations and focus indicators
 
 ## Getting Started
 
-First, run the development server:
+### Development
+
+First, install dependencies and run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To build for production:
 
-## Learn More
+```bash
+npm run build
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Deploy to Render
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is configured for easy deployment to Render using GitHub integration.
 
-## Deploy on Vercel
+1. **Push to GitHub**: Ensure your code is pushed to a GitHub repository
+2. **Connect to Render**: 
+   - Go to [Render Dashboard](https://dashboard.render.com)
+   - Click "New" → "Web Service"
+   - Connect your GitHub repository
+3. **Auto-Deploy**: Render will automatically detect the `render.yaml` configuration and deploy your app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The `render.yaml` file includes:
+- Node.js 18 environment
+- Automatic build and start commands
+- Free tier configuration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Manual Deployment Steps
+
+If deploying manually:
+1. Set Node.js version to 18
+2. Build command: `npm install && npm run build`
+3. Start command: `npm start`
+4. Ensure all environment variables are configured
+
+## Project Structure
+
+```
+src/
+├── app/                    # Next.js app router pages
+│   ├── countries/         # Countries management pages
+│   ├── dashboard/         # Dashboard page
+│   └── page.tsx          # Login page
+├── components/            # Reusable components
+│   ├── ElevatedCard.tsx  # Login form component
+│   └── Sidebar.tsx       # Navigation sidebar
+└── contexts/              # React contexts
+    └── CountriesContext.tsx
+```
+
+## Design System
+
+- **Primary Color**: Dodger Blue (#1E90FF)
+- **Typography**: Geist font family
+- **Components**: Modern, minimalist design with subtle animations
+- **Icons**: Consistent SVG icons throughout the application
+
+## Technologies Used
+
+- **Next.js 15.5.3**: React framework with app router
+- **React 19.1.0**: UI library
+- **TypeScript**: Type safety
+- **Tailwind CSS 4**: Utility-first CSS framework
+- **Node.js 18**: Runtime environment
