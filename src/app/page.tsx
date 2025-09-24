@@ -12,7 +12,7 @@ export default function Home() {
   }
 
   return (
-    <main className="h-screen overflow-hidden">
+    <main className="min-h-screen w-full bg-gray-50 flex items-center justify-center">
       <ElevatedCard onLogin={handleLogin} />
     </main>
   )

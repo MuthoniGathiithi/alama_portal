@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${openSans.variable} antialiased font-sans`}
+        className={`${openSans.variable} antialiased font-sans bg-gray-50`}
       >
         <CountriesProvider>
           {children}

@@ -8,7 +8,7 @@ const ElevatedCard = ({ onLogin }: { onLogin: () => void }) => {
   const [password, setPassword] = useState('')
 
   return (
-    <div className="w-full min-h-screen bg-gray-50 flex items-center justify-center p-4 font-sans">
+    <div className="w-full flex items-center justify-center p-4 font-sans">
       {/* Login Card */}
       <div className="w-full max-w-5xl bg-white rounded-xl shadow-lg overflow-hidden flex border border-gray-200">
         {/* Left Side - Login Form */}
