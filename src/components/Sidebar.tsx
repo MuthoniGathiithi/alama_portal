@@ -25,7 +25,7 @@ const Sidebar = () => {
   }
 
   return (
-    <div className="w-64 h-screen flex flex-col border-r border-gray-300 font-sans bg-gray-600">
+    <div className="w-64 h-screen flex flex-col border-r border-gray-300 font-sans bg-purple-600">
       {/* Logo Section - Positioned at the very top */}
       <div className="flex items-center pt-2 pb-2 px-2 border-b border-gray-300 bg-gray-100">
         <img
@@ -44,7 +44,7 @@ const Sidebar = () => {
         <div className="mb-1">
           <button
             onClick={() => toggleMenu('main')}
-            className="w-full flex items-center justify-between text-gray-300 hover:text-white hover:bg-gray-500 py-3 -mx-4 px-4 transition-colors"
+            className="w-full flex items-center justify-between text-gray-300 hover:text-white hover:bg-purple-500 py-3 -mx-4 px-4 transition-colors"
           >
             <div className="flex items-center">
               <svg className="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 24 24">
@@ -68,7 +68,7 @@ const Sidebar = () => {
                 className={`w-full text-left py-2 pl-6 pr-4 transition-colors text-sm font-normal relative ${
                   isActive('/dashboard') 
                     ? 'bg-[#1E90FF] bg-opacity-20 text-white border-r-2 border-[#1E90FF]' 
-                    : 'text-gray-300 hover:text-white hover:bg-gray-500'
+                    : 'text-gray-300 hover:text-white hover:bg-purple-500'
                 }`}
               >
                 <span className={`absolute left-2 top-1/2 transform -translate-y-1/2 w-1.5 h-1.5 rounded-full ${
@@ -84,7 +84,7 @@ const Sidebar = () => {
         <div className="mb-1">
           <button
             onClick={() => toggleMenu('reference')}
-            className="w-full flex items-center justify-between text-gray-300 hover:text-white hover:bg-gray-500 py-3 -mx-4 px-4 transition-colors"
+            className="w-full flex items-center justify-between text-gray-300 hover:text-white hover:bg-purple-500 py-3 -mx-4 px-4 transition-colors"
           >
             <div className="flex items-center">
               <svg className="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 24 24">
@@ -108,7 +108,7 @@ const Sidebar = () => {
                 className={`w-full text-left py-2 pl-6 pr-4 transition-colors text-sm font-normal relative ${
                   isActive('/countries') 
                     ? 'bg-[#1E90FF] bg-opacity-20 text-white border-r-2 border-[#1E90FF]' 
-                    : 'text-gray-300 hover:text-white hover:bg-gray-500'
+                    : 'text-gray-300 hover:text-white hover:bg-purple-500'
                 }`}
               >
                 <span className={`absolute left-2 top-1/2 transform -translate-y-1/2 w-1.5 h-1.5 rounded-full ${
@@ -124,7 +124,7 @@ const Sidebar = () => {
         <div className="mb-1">
           <button
             onClick={() => toggleMenu('system')}
-            className="w-full flex items-center justify-between text-gray-300 hover:text-white hover:bg-gray-500 py-3 -mx-4 px-4 transition-colors"
+            className="w-full flex items-center justify-between text-gray-300 hover:text-white hover:bg-purple-500 py-3 -mx-4 px-4 transition-colors"
           >
             <div className="flex items-center">
               <svg className="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 24 24">
@@ -147,7 +147,7 @@ const Sidebar = () => {
                 className={`w-full text-left py-2 pl-6 pr-4 transition-colors text-sm font-normal relative ${
                   isActive('/settings') 
                     ? 'bg-[#1E90FF] bg-opacity-20 text-white border-r-2 border-[#1E90FF]' 
-                    : 'text-gray-300 hover:text-white hover:bg-gray-500'
+                    : 'text-gray-300 hover:text-white hover:bg-purple-500'
                 }`}
               >
                 <span className={`absolute left-2 top-1/2 transform -translate-y-1/2 w-1.5 h-1.5 rounded-full ${
