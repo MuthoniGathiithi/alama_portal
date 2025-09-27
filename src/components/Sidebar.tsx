@@ -67,7 +67,7 @@ const Sidebar = () => {
                 onClick={() => router.push('/dashboard')}
                 className={`w-full text-left py-2 pl-6 pr-4 transition-colors text-sm font-normal relative ${
                   isActive('/dashboard') 
-                    ? 'bg-[#1E90FF] bg-opacity-20 text-white border-r-2 border-[#1E90FF]' 
+                    ? 'bg-purple-600 bg-opacity-20 text-white border-r-2 border-purple-600' 
                     : 'text-gray-300 hover:text-white hover:bg-purple-500'
                 }`}
               >
@@ -107,7 +107,7 @@ const Sidebar = () => {
                 onClick={() => router.push('/countries')}
                 className={`w-full text-left py-2 pl-6 pr-4 transition-colors text-sm font-normal relative ${
                   isActive('/countries') 
-                    ? 'bg-[#1E90FF] bg-opacity-20 text-white border-r-2 border-[#1E90FF]' 
+                    ? 'bg-purple-600 bg-opacity-20 text-white border-r-2 border-purple-600' 
                     : 'text-gray-300 hover:text-white hover:bg-purple-500'
                 }`}
               >
@@ -146,7 +146,7 @@ const Sidebar = () => {
               <button 
                 className={`w-full text-left py-2 pl-6 pr-4 transition-colors text-sm font-normal relative ${
                   isActive('/settings') 
-                    ? 'bg-[#1E90FF] bg-opacity-20 text-white border-r-2 border-[#1E90FF]' 
+                    ? 'bg-purple-600 bg-opacity-20 text-white border-r-2 border-purple-600' 
                     : 'text-gray-300 hover:text-white hover:bg-purple-500'
                 }`}
               >

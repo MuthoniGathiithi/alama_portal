@@ -58,7 +58,7 @@ const CountriesPage = () => {
                 <h3 className="text-xl font-semibold text-gray-900 mb-6">No country added yet</h3>
                 <button
                   onClick={handleCreateCountry}
-                  className="bg-[#1E90FF] text-white px-6 py-3 rounded hover:bg-blue-600 transition-colors flex items-center"
+                  className="bg-purple-600 text-white px-6 py-3 rounded hover:bg-purple-500 transition-colors flex items-center"
                 >
                   <svg className="w-5 h-5 mr-2" fill="white" viewBox="0 0 24 24">
                     <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
@@ -127,7 +127,7 @@ const CountriesPage = () => {
                           <div className="flex items-center justify-end space-x-3">
                             <button
                               onClick={() => handleViewCountry(country.id)}
-                              className="text-gray-500 hover:text-white hover:bg-[#1E90FF] p-2.5 rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-200"
+                              className="text-gray-500 hover:text-white hover:bg-purple-600 p-2.5 rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-purple-200"
                               title="View Country"
                             >
                               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -136,7 +136,7 @@ const CountriesPage = () => {
                             </button>
                             <button
                               onClick={() => handleEditCountry(country.id)}
-                              className="text-gray-500 hover:text-white hover:bg-[#1E90FF] p-2.5 rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-200"
+                              className="text-gray-500 hover:text-white hover:bg-purple-600 p-2.5 rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-purple-200"
                               title="Edit Country"
                             >
                               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

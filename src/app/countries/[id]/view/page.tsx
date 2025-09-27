@@ -69,7 +69,7 @@ const ViewCountryPage = () => {
             </div>
             <button
               onClick={handleEdit}
-              className="bg-[#1E90FF] text-white px-3 py-1.5 rounded hover:bg-blue-600 transition-colors flex items-center"
+              className="bg-purple-600 text-white px-3 py-1.5 rounded hover:bg-purple-500 transition-colors flex items-center"
             >
               <svg className="w-5 h-5 mr-2" fill="white" viewBox="0 0 24 24">
                 <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/>
@@ -83,10 +83,10 @@ const ViewCountryPage = () => {
         <div className="bg-white border-b border-gray-200 p-6">
           <div className="grid grid-cols-4 gap-6">
             {/* Curricula Card */}
-            <div className="bg-white border border-gray-200 rounded-lg p-4 hover:bg-[#1E90FF] hover:border-[#1E90FF] hover:shadow-md transition-all duration-200 cursor-pointer group">
+            <div className="bg-white border border-gray-200 rounded-lg p-4 hover:bg-purple-600 hover:border-purple-600 hover:shadow-md transition-all duration-200 cursor-pointer group">
               <div className="flex items-center">
                 <div className="p-3 bg-gray-100 group-hover:bg-white rounded-lg transition-colors duration-200">
-                  <svg className="w-6 h-6 text-gray-600 group-hover:text-[#1E90FF] transition-colors duration-200" fill="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-gray-600 group-hover:text-purple-600 transition-colors duration-200" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
                   </svg>
                 </div>
@@ -98,10 +98,10 @@ const ViewCountryPage = () => {
             </div>
 
             {/* Institutions Card */}
-            <div className="bg-white border border-gray-200 rounded-lg p-4 hover:bg-[#1E90FF] hover:border-[#1E90FF] hover:shadow-md transition-all duration-200 cursor-pointer group">
+            <div className="bg-white border border-gray-200 rounded-lg p-4 hover:bg-purple-600 hover:border-purple-600 hover:shadow-md transition-all duration-200 cursor-pointer group">
               <div className="flex items-center">
                 <div className="p-3 bg-gray-100 group-hover:bg-white rounded-lg transition-colors duration-200">
-                  <svg className="w-6 h-6 text-gray-600 group-hover:text-[#1E90FF] transition-colors duration-200" fill="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-gray-600 group-hover:text-purple-600 transition-colors duration-200" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h2v-2h2v-2h2v8z"/>
                   </svg>
                 </div>
@@ -113,10 +113,10 @@ const ViewCountryPage = () => {
             </div>
 
             {/* Resources Card */}
-            <div className="bg-white border border-gray-200 rounded-lg p-4 hover:bg-[#1E90FF] hover:border-[#1E90FF] hover:shadow-md transition-all duration-200 cursor-pointer group">
+            <div className="bg-white border border-gray-200 rounded-lg p-4 hover:bg-purple-600 hover:border-purple-600 hover:shadow-md transition-all duration-200 cursor-pointer group">
               <div className="flex items-center">
                 <div className="p-3 bg-gray-100 group-hover:bg-white rounded-lg transition-colors duration-200">
-                  <svg className="w-6 h-6 text-gray-600 group-hover:text-[#1E90FF] transition-colors duration-200" fill="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-gray-600 group-hover:text-purple-600 transition-colors duration-200" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M10 4H4c-1.11 0-2 .89-2 2v3h2V6h4V4zm6 0v2h4v3h2V6c0-1.11-.89-2-2-2h-4zm-6 15H4v-3H2v3c0 1.11.89 2 2 2h6v-2zm6 0v2h4c1.11 0 2-.89 2-2v-3h-2v3h-4zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z"/>
                   </svg>
                 </div>
@@ -128,10 +128,10 @@ const ViewCountryPage = () => {
             </div>
 
             {/* Students Card */}
-            <div className="bg-white border border-gray-200 rounded-lg p-4 hover:bg-[#1E90FF] hover:border-[#1E90FF] hover:shadow-md transition-all duration-200 cursor-pointer group">
+            <div className="bg-white border border-gray-200 rounded-lg p-4 hover:bg-purple-600 hover:border-purple-600 hover:shadow-md transition-all duration-200 cursor-pointer group">
               <div className="flex items-center">
                 <div className="p-3 bg-gray-100 group-hover:bg-white rounded-lg transition-colors duration-200">
-                  <svg className="w-6 h-6 text-gray-600 group-hover:text-[#1E90FF] transition-colors duration-200" fill="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-gray-600 group-hover:text-purple-600 transition-colors duration-200" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A1.5 1.5 0 0 0 18.5 7.5h-1c-.83 0-1.5.67-1.5 1.5v6c0 .83.67 1.5 1.5 1.5H18v6h2zM12.5 11.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5S11 9.17 11 10s.67 1.5 1.5 1.5zM5.5 6c1.11 0 2-.89 2-2s-.89-2-2-2-2 .89-2 2 .89 2 2 2zm2 16v-7H9v-2c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v2h1.5v7h3zM12 13.5c-1.1 0-2 .9-2 2v6.5h2v7h3v-7h2v-6.5c0-1.1-.9-2-2-2h-3z"/>
                   </svg>
                 </div>
@@ -158,7 +158,7 @@ const ViewCountryPage = () => {
               </div>
               <div className="py-4">
                 <p className="text-gray-600 mb-4">No institutions registered in {country.name}</p>
-                <button className="bg-[#1E90FF] text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors">
+                <button className="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-500 transition-colors">
                   Register Institution
                 </button>
               </div>
@@ -174,7 +174,7 @@ const ViewCountryPage = () => {
               </div>
               <div className="py-4">
                 <p className="text-gray-600 mb-4">No AI assessments available for {country.name}</p>
-                <button className="bg-[#1E90FF] text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors">
+                <button className="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-500 transition-colors">
                   Create Assessment
                 </button>
               </div>

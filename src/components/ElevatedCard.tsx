@@ -88,7 +88,7 @@ const ElevatedCard = ({ onLogin }: { onLogin: () => void }) => {
               <div className="pt-2">
                 <button 
                   onClick={onLogin}
-                  className="w-full bg-[#1E90FF] hover:bg-[#1873CC] text-white font-medium py-2.5 text-sm rounded-md transition-colors duration-200 focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-[#1E90FF]"
+                  className="w-full bg-purple-600 hover:bg-purple-500 text-white font-medium py-2.5 text-sm rounded-md transition-colors duration-200 focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-purple-600"
                 >
                   Sign in
                 </button>
@@ -105,7 +105,7 @@ const ElevatedCard = ({ onLogin }: { onLogin: () => void }) => {
         </div>
         
         {/* Right Side - Logo */}
-        <div className="w-1/2 bg-[#1E90FF] flex flex-col items-center justify-center p-8">
+        <div className="w-1/2 bg-purple-600 flex flex-col items-center justify-center p-8">
           <div className="text-center">
             <div className="bg-white p-6 rounded-full inline-flex items-center justify-center mb-4">
               <img
