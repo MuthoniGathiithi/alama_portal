@@ -72,7 +72,7 @@ const Sidebar = () => {
                 }`}
               >
                 <span className={`absolute left-2 top-1/2 transform -translate-y-1/2 w-1.5 h-1.5 rounded-full ${
-                  isActive('/dashboard') ? 'bg-[#1E90FF]' : 'bg-gray-400'
+                  isActive('/dashboard') ? 'bg-purple-600' : 'bg-gray-400'
                 }`}></span>
                 Dashboard
               </button>
@@ -112,7 +112,7 @@ const Sidebar = () => {
                 }`}
               >
                 <span className={`absolute left-2 top-1/2 transform -translate-y-1/2 w-1.5 h-1.5 rounded-full ${
-                  isActive('/countries') ? 'bg-[#1E90FF]' : 'bg-gray-400'
+                  isActive('/countries') ? 'bg-purple-600' : 'bg-gray-400'
                 }`}></span>
                 Countries
               </button>
@@ -151,7 +151,7 @@ const Sidebar = () => {
                 }`}
               >
                 <span className={`absolute left-2 top-1/2 transform -translate-y-1/2 w-1.5 h-1.5 rounded-full ${
-                  isActive('/settings') ? 'bg-[#1E90FF]' : 'bg-gray-400'
+                  isActive('/settings') ? 'bg-purple-600' : 'bg-gray-400'
                 }`}></span>
                 Settings
               </button>

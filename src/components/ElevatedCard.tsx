@@ -71,14 +71,14 @@ const ElevatedCard = ({ onLogin }: { onLogin: () => void }) => {
                     id="remember-me"
                     name="remember-me"
                     type="checkbox"
-                    className="h-3.5 w-3.5 text-[#1E90FF] focus:ring-[#1E90FF] border-gray-300 rounded"
+                    className="h-3.5 w-3.5 text-purple-600 focus:ring-purple-600 border-gray-300 rounded"
                   />
                   <label htmlFor="remember-me" className="ml-2 block text-xs text-gray-600">
                     Remember me
                   </label>
                 </div>
                 <div className="text-xs">
-                  <a href="#" className="text-[#1E90FF] hover:underline">
+                  <a href="#" className="text-purple-600 hover:underline">
                     Forgot password?
                   </a>
                 </div>
@@ -97,7 +97,7 @@ const ElevatedCard = ({ onLogin }: { onLogin: () => void }) => {
             
             <div className="mt-6 pt-4 border-t border-gray-100 text-center text-xs text-gray-500">
               Don't have an account?{' '}
-              <a href="#" className="text-[#1E90FF] hover:underline">
+              <a href="#" className="text-purple-600 hover:underline">
                 Contact administrator
               </a>
             </div>
